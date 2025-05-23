@@ -1,0 +1,122 @@
+# vendas-blusa-time]
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(45deg, rgba(203, 203, 203, 0.635), rgb(255, 213, 0));
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1, h2, p {
+            margin-bottom: 20px;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 90%;
+            max-width: 1200px;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .blouse {
+            flex: 0 0 300px;
+            margin: 0 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .blouse img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .blouse h3 {
+            margin-top: 10px;
+            font-size: 1.4em;
+        }
+
+        .blouse p {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-buttons button {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        .carousel-buttons button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .buy-button {
+        background-color: #ffcc00;
+        color: #000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .buy-button:hover {
+        background-color: #e6b800;
+    }
+
+    footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: white; 
+        background-color: #333; 
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px; 
+    }
+
+    footer a {
+        color: #ffcc00; 
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
